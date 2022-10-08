@@ -1,0 +1,347 @@
+body{
+    /*gets rid of the tiny space around the elements.items*/
+    margin-top: 3vh;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+header{
+    color: red;
+    text-shadow: 4px 4px 10px darkred;
+    font-size: 50px;
+}
+.main-container{
+    max-width: 550px;
+    padding: 10px;
+}
+
+
+.wallpaper{
+    max-width: 100%;
+}
+.trailer-cover{
+    max-height: 200px;
+    max-width: 200px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: left;
+}
+.main-container h1{
+    color: white;
+    font-weight: 525;
+    margin-top: 50px;
+}
+.main-container p{
+    color: white;
+    margin: 15px 0;
+}
+.main-container h3{
+    color: white;
+    margin: 15px 0;
+}
+
+
+.btn{
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: yellow;
+}
+
+.trailer-container{
+    /*whole code here brings the video container to the exact center of the page for any device*/
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    /*brings video container to center of the whole display*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    /*adds a small transition to get to the video*/
+    transition: opacity 0.5s;
+}
+.active.trailer-container{
+    visibility: hidden;
+    opacity: 0;
+}
+.trailer-container video{
+    position: relative;
+    max-width: 900px;
+    outline: none;
+}
+@media (max-width: 991px) {
+    .trailer-container video{
+        max-width: 90%;
+    }
+}
+.close-icon{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.trailer-container2{
+    /*whole code here brings the video container to the exact center of the page for any device*/
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    /*brings video container to center of the whole display*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    /*adds a small transition to get to the video*/
+    transition: opacity 0.5s;
+}
+.active.trailer-container2{
+    visibility: hidden;
+    opacity: 0;
+}
+.trailer-container2 video{
+    position: relative;
+    max-width: 900px;
+    outline: none;
+}
+@media (max-width: 991px) {
+    .trailer-container2 video{
+        max-width: 90%;
+    }
+}
+.close-icon2{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: white;
+    cursor: pointer;
+}
+.btn2{
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn2:hover{
+    background-color: yellow;
+}
+
+
+
+
+.trailer-container3{
+    /*whole code here brings the video container to the exact center of the page for any device*/
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    /*brings video container to center of the whole display*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    /*adds a small transition to get to the video*/
+    transition: opacity 0.5s;
+}
+.active.trailer-container3{
+    visibility: hidden;
+    opacity: 0;
+}
+.trailer-container3 video{
+    position: relative;
+    max-width: 900px;
+    outline: none;
+}
+@media (max-width: 991px) {
+    .trailer-container3 video{
+        max-width: 90%;
+    }
+}
+.close-icon3{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: white;
+    cursor: pointer;
+}
+.btn3{
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn3:hover{
+    background-color: yellow;
+}
+
+
+.trailer-container4{
+    /*whole code here brings the video container to the exact center of the page for any device*/
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    /*brings video container to center of the whole display*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    /*adds a small transition to get to the video*/
+    transition: opacity 0.5s;
+}
+.active.trailer-container4{
+    visibility: hidden;
+    opacity: 0;
+}
+.trailer-container4 video{
+    position: relative;
+    max-width: 900px;
+    outline: none;
+}
+@media (max-width: 991px) {
+    .trailer-container4 video{
+        max-width: 90%;
+    }
+}
+.close-icon4{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: white;
+    cursor: pointer;
+}
+.btn4{
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn4:hover{
+    background-color: yellow;
+}
+
+.trailer-container5{
+    /*whole code here brings the video container to the exact center of the page for any device*/
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    /*brings video container to center of the whole display*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    /*adds a small transition to get to the video*/
+    transition: opacity 0.5s;
+}
+.active.trailer-container5{
+    visibility: hidden;
+    opacity: 0;
+}
+.trailer-container5 video{
+    position: relative;
+    max-width: 900px;
+    outline: none;
+}
+@media (max-width: 991px) {
+    .trailer-container5 video{
+        max-width: 90%;
+    }
+}
+.close-icon5{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: white;
+    cursor: pointer;
+}
+.btn5{
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn5:hover{
+    background-color: yellow;
+}
+
+.trailer-container6{
+    /*whole code here brings the video container to the exact center of the page for any device*/
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    /*brings video container to center of the whole display*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    /*adds a small transition to get to the video*/
+    transition: opacity 0.5s;
+}
+.active.trailer-container6{
+    visibility: hidden;
+    opacity: 0;
+}
+.trailer-container6.video{
+    position: relative;
+    max-width: 900px;
+    outline: none;
+}
+@media (max-width: 991px) {
+    .trailer-container6 video{
+        max-width: 90%;
+    }
+}
+.close-icon6{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: white;
+    cursor: pointer;
+}
+.btn6{
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn6:hover{
+    background-color: yellow;
+}
